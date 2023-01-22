@@ -1,0 +1,78 @@
+@media (min-width: 650px) {
+  .img-slider {
+    width: 610px;
+    height: 632px;
+  }
+  .card {
+    width: 300px;
+    &__price{
+      font-size: 30px;
+      line-height: 36px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 34px;
+      min-height: 101px;
+      max-width: 80%;
+    }
+  }
+
+  .modal {
+    &__main{
+      padding: 30px;
+      max-width: 530px;
+    }
+    &__form-title {
+      padding-top: 0;
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &__form-text{
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &__close{
+      font-size: 20px;
+      top: -20px;
+    }
+    &__form-lab {
+      & input {
+        width: 470px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    &__checkbox {
+        font-size: 12px;
+        line-height: 20px;
+      & span {
+      }
+    }
+  }
+  .form-btn{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .modal-textarea {
+    width: 470px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .modal_2 {
+    &__main {
+      display: flex;
+      justify-content: flex-end;
+      max-width: 610px;
+      position: relative;
+    }
+    &__inner {
+      max-width: 565px;
+      align-items: flex-start;
+    }
+  }
+  .modal__close-btn {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,189 @@
+@media (min-width: 1024px) {
+  .nav {
+    font-size: 16px;
+    line-height: 20px;
+    &__left {
+      column-gap: 40px;
+      top: 30px;
+    }
+    &__social {
+      gap: 20px;
+    }
+    &__right {
+      column-gap: 30px;
+    }
+  }
+  .img-slider {
+    width: 984px;
+  }
+  .info-decor {
+    margin-bottom: 100px;
+    &__inner {
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 30px;
+    }
+    &__content {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+  }
+
+  .cards {
+    &__inner {
+      grid-gap: 40px;
+    }
+  }
+  .modal {
+    &_2 {
+    }
+    &_2-slider {
+      top: 50px;
+    }
+    &_2-image {
+      width: 380px;
+      height: 380px;
+    }
+    &_2-img {
+      width: 100px;
+      height: 100px;
+    }
+
+    &_2-btn {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .modal_2 {
+    &__main {
+      max-width: 950px;
+    }
+
+    &__inner {
+      align-items: flex-start;
+      max-width: 639px;
+    }
+
+    &__title {
+      font-size: 36px;
+      line-height: 40px;
+    }
+    &__desc-title {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &__desc-text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .monthly-offer {
+    margin-bottom: 100px;
+    &__inner {
+      max-width: 900px;
+      padding: 20px 478px 20px 20px;
+      align-items: flex-start;
+    }
+    &__header {
+      margin-left: -20px;
+      font-size: 30px;
+      line-height: 34px;
+      width: 287px;
+    }
+    &__title {
+      max-width: 400px;
+      padding: 0;
+      font-size: 50px;
+      line-height: 54px;
+    }
+    &__price {
+      font-size: 35px;
+      line-height: 34px;
+    }
+    &__price-old {
+      font-size: 26px;
+      line-height: 34px;
+    }
+    &__btn {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &-rec {
+      right: 252px;
+      top: 0;
+      width: 80px;
+      height: 426px;
+      transform: skew(-10deg);
+    }
+  }
+
+  .monthly-offer-320 {
+    display: none;
+  }
+  .monthly-offer-1024 {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    object-fit: fill;
+  }
+  .certificate {
+    &__inner {
+      flex-direction: row;
+      column-gap: 20px;
+    }
+
+    &__title {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    &__img {
+      height: 380px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .question {
+    padding-bottom: 100px;
+    margin-bottom: 60px;
+    &__title {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    &__question {
+      font-size: 30px;
+      line-height: 37px;
+    }
+    &__item-img {
+      width: 50px;
+      height: 50px;
+    }
+    &__answer {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .footer {
+    &__logo-inner {
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      position: relative;
+    }
+    &__logo-author {
+      position: absolute;
+      bottom: -50px;
+    }
+    &__questions-author {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@media (min-width: 1340px) {
+  .container {
+    max-width: 1300px;
+    padding: 0;
+  }
+  .img-slider {
+    width: 1300px;
+  }
+  .card {
+    width: 407px;
+  }
+
+  .modal_2 {
+    &__main {
+      padding: 90px 40px;
+      max-width: 1260px;
+    }
+    &__inner {
+      max-width: 775px;
+    }
+  }
+  .certificate {
+    &__inner {
+      flex-direction: row;
+      column-gap: 20px;
+    }
+
+    &__title {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    &__title--mobile {
+      display: none;
+    }
+    &__img {
+      width: 619px;
+      height: 465px;
+    }
+
+    &__title--desc {
+      display: block;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

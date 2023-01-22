@@ -1,0 +1,47 @@
+@media (min-width: 390px) {
+  .img-slider {
+    width: 335px;
+    height: 380px;
+  }
+  .info {
+    position: relative;
+    margin-top: -230px;
+    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+
+    &__title {
+      font-size: 28px;
+    }
+    &__btn {
+      font-size: 14px;
+      padding: 11px 12px;
+    }
+  }
+  .cards {
+    &__inner {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .modal {
+    &__form-title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &__form-lab {
+      & input {
+        width: 295px;
+      }
+    }
+    &__checkbox {
+      font-size: 12px;
+      line-height: 20px;
+      & span {
+      }
+    }
+  }
+  .modal-textarea {
+    width: 295px;
+  }
+}

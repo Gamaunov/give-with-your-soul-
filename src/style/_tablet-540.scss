@@ -1,0 +1,55 @@
+@media (min-width: 540px) {
+  .img-slider {
+    width: 500px;
+    height: 550px;
+  }
+  .card {
+    width: 230px;
+    &__offer {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__title {
+      font-size: 18px;
+      line-height: 25px;
+      max-width: 190px;
+    }
+  }
+
+  .monthly-offer {
+    &__inner {
+      max-width: 500px;
+    }
+    &__price-old {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    &__price-new {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &-rec {
+      right: 83px;
+      top: 369px;
+      width: 335px;
+    }
+  }
+  .footer {
+    &__menu-title {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &__menu-text {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__link {
+      font-size: 21px;
+      line-height: 25px;
+    }
+    &__questions-title {
+      font-size: 21px;
+      line-height: 25px;
+    }
+  }
+}

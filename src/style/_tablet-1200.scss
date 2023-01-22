@@ -1,0 +1,40 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1160px;
+  }
+  .cards {
+    &__inner {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .footer {
+    &__menu-title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &__menu-text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &__contacts {
+      width: 280px;
+    }
+    &__link {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &__questions-title {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &__questions-text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .footer-btn {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 32px;
+  }
+}
